@@ -1,5 +1,6 @@
 def hello_world
-  puts 'Hello, world!'
+  require "pry"; binding.pry
+  puts 'Hello, pana'
 end
 
 hello_world
